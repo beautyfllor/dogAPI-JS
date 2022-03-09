@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px;
+    gap: 15px;
+}
+
+#imagem-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+#imagem-container img{
+    height: 350px;
+    flex-grow: 1;
+    transition: all .3s;
+    filter: grayscale();
+}
+
+#imagem-container img:hover{
+    filter: grayscale(0)
+}
