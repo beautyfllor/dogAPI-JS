@@ -23,9 +23,9 @@ header{
     height: 350px;
     flex-grow: 1;
     transition: all .3s;
-    filter: grayscale();
+    /*filter: grayscale();*/
 }
 
 #imagem-container img:hover{
-    filter: grayscale(0)
+    /*filter: grayscale(0)*/
 }
